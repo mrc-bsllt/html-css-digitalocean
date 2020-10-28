@@ -1,0 +1,28 @@
+
+/* header */
+nav {
+  height: 65px;
+  line-height: 65px;
+  border-bottom: 1px solid black;
+}
+nav img {
+  width: 160px;
+  vertical-align: middle;
+}
+/* /header */
+
+
+
+/* media query */
+@media screen and (max-width: 768px) {
+
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+
+}
+/* /media query */
