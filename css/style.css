@@ -1,15 +1,74 @@
+/* utilities */
+.drop_down a::after {
+  content: '\02c5';
+  margin-left: 3px;
+  font-weight: 700;
+  font-size: 14px;
+  vertical-align: middle;
+}
+.btn_cl_blue {
+  color: #006aff;
+  border: 1px solid #006aff;
+  font-weight: 600;
+}
+.btn_cl_blue:hover {
+  color: #ffffff;
+  background-color: #006aff;
+}
+/* /utilities */
+
+/* generale */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  color: #031b4f;
+}
+a:hover {
+  text-decoration: none;
+}
+/* /generale */
 
 /* header */
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
   height: 65px;
   line-height: 65px;
-  border-bottom: 1px solid black;
 }
 nav img {
-  width: 160px;
+  width: 150px;
+  vertical-align: middle;
+}
+nav li a {
+  padding: 0 3px;
+  font-size: 15px;
+  font-weight: 600;
+}
+nav li a:hover {
+  color: #006aff;
+}
+#hamburger {
+  color: #006aff;
+  font-size: 25px;
   vertical-align: middle;
 }
 /* /header */
+
+/* jumbotron */
+#jumbotron {
+  width: 100%;
+  height: 700px;
+  margin-top: 65px;
+  background-image: url("../img/jumbo-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* /jumbotron */
 
 
 
