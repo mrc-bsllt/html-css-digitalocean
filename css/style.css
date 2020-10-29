@@ -1,4 +1,9 @@
 /* utilities */
+.debug [class*="col-l"] {
+  height: 400px;
+  background-color: red;
+  border: 1px solid black;
+}
 .drop_down a::after {
   content: '\02c5';
   margin-left: 3px;
@@ -53,7 +58,7 @@ h3 {
 }
 h2,
 h3 {
-  color: #000000;
+  color: #031b4e;;
 }
 h4 {
   color: #000000;
@@ -188,7 +193,7 @@ nav li a:hover {
 
 /* deploy */
  #deploy {
-   padding: 70px 0 50px 0;;
+   padding: 50px 0;
  }
  #deploy h2 {
    margin-top: 0;
@@ -220,6 +225,48 @@ nav li a:hover {
 }
 /* /deploy */
 
+ /* designed */
+ #designed {
+   padding: 50px 0;
+   background-color: #F3F5F9;
+ }
+ #designed p.font_big {
+   margin-top: 30px;
+  }
+  #create_droplets {
+    width: 40%;
+    margin: 50px auto 0;
+  }
+  #create_droplets img {
+    width: 75%;
+    vertical-align: middle;
+  }
+  #create_droplets i {
+    display: inline-block;
+    padding: 15px;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  #create_droplets i.active {
+    color: #031b4e;
+  }
+  #create_droplets p.p_small {
+    color: #031b4e;
+    margin-top: 25px;
+    font-weight: 600;
+  }
+  .list_circle li {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    border: 1px solid #006aff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .list_circle li.circle_active {
+    background-color: #006aff;
+  }
+/* /designed */
 
 /* /main */
 
@@ -235,6 +282,7 @@ nav li a:hover {
 /* media query */
 @media screen and (max-width: 768px) {
 
+  /* generale */
   h1 {
     font-size: 2em;
   }
@@ -244,16 +292,20 @@ nav li a:hover {
   h3 {
     font-size: 1.6em;
   }
+  h5 {
+    font-size: 0.75em;
+  }
+  /* /generale */
 
+  /* header */
   #jumbotron {
     padding: 50px 0;
   }
+  /* /header */
 
+  /* main */
   #logos li {
     width: 50%;
-  }
-  h5 {
-    font-size: 0.75em;
   }
   #logos a {
     font-size: 12px;
@@ -264,28 +316,56 @@ nav li a:hover {
   #deploy .deploy_item {
     height: auto;
   }
-
+  #create_droplets {
+    width: 70%;
+    margin: 50px auto 0;
+  }
+  #create_droplets img {
+    width: 100%;
+  }
+  #create_droplets p.p_small {
+    font-size: 0.9em;
+  }
+  .list_circle li {
+    width: 10px;
+    height: 10px;
+  }
+  /* /main */
 
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
+  /* generale */
   h1 {
     font-size: 2.5em;
+  }
+  h2 {
+    font-size: 2.6em;
   }
   h3 {
     font-size: 1.9em;
   }
+  /* /generale */
 
+  /* header */
   #jumbotron {
     padding: 60px 0;
   }
+  /* /header */
 
+  /* main */
   #deploy .deploy_item {
     height: 180px;
   }
 
-
+  #create_droplets {
+    width: 70%;
+  }
+  #create_droplets p.p_small {
+    font-size: 1.5em;
+  }
+  /* /main */
 
 }
 /* /media query */
