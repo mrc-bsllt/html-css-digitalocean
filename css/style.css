@@ -42,6 +42,9 @@
 .cl_white {
   color: #ffffff;
 }
+.cl_lighgrey {
+  color: #bbbcbe;
+}
 .cl_lightblue {
   color: #00d7d2
 }
@@ -49,11 +52,10 @@
 
 /* generale */
 body {
-  color: #bbbcbe;
+  color: #5b6987;
   font-family: 'Montserrat', sans-serif;
 }
 h1 {
-  color: #ffffff;
   font-size: 56px;
   font-weight: 700;
 }
@@ -67,11 +69,12 @@ h3 {
   font-weight: 600;
 }
 h2,
-h3 {
-  color: #031b4e;;
+h3,
+h4,
+a {
+  color: #031b4e;
 }
 h4 {
-  color: #000000;
   font-weight: 600;
   font-size: 18px;
 }
@@ -79,15 +82,17 @@ h5 {
   font-size: 14px;
   font-weight: 600;
 }
-p.font_big {
+p {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
-p.p_small {
-  font-size: 12px;
+.font_small {
+  font-size: 16px;
+}
+.font_xsmall {
+  font-size: 14px
 }
 a {
-  color: #031b4f;
   display: inline-block;
 }
 a:hover {
@@ -166,12 +171,12 @@ nav li a:hover {
   transform: translatey(-50%);
   width: 20px;
 }
-#form_content .p_small {
+#form_content p.font_xsmall {
   color: #000000;
   font-weight: 600;
   margin-top: 10px;
 }
-#form_content .p_small a {
+#form_content p.font_xsmall a {
   color: #006aff;
   text-decoration: underline;
 }
@@ -210,8 +215,7 @@ nav li a:hover {
  #deploy {
    padding: 50px 0;
  }
-#deploy p.font_big {
-  color: #5b6987;
+#deploy p {
   margin-bottom: 50px;
 }
 #deploy li {
@@ -230,7 +234,7 @@ nav li a:hover {
   color: #031b4e;
 }
 #deploy .deploy_item {
-  height: 170px;
+  height: 190px;
 }
 #deploy .deploy_image {
   height: 35px;
@@ -242,9 +246,6 @@ nav li a:hover {
    padding: 50px 0;
    background-color: #F3F5F9;
  }
- #designed p.font_big {
-   margin-top: 30px;
-  }
   #create_droplets {
     width: 40%;
     margin: 50px auto 0;
@@ -262,10 +263,9 @@ nav li a:hover {
   #create_droplets i.active {
     color: #031b4e;
   }
-  #create_droplets p.p_small {
+  #create_droplets p.font_small {
     color: #031b4e;
     margin-top: 25px;
-    font-weight: 600;
   }
   .list_circle li {
     width: 15px;
@@ -292,9 +292,6 @@ nav li a:hover {
 }
 #features h4 {
   margin: 15px 0;
-}
-#features p {
-  font-size: 15px;
 }
 #features a {
   color: #1633ff;
@@ -406,6 +403,10 @@ nav li a:hover {
   h5 {
     font-size: 20px;
   }
+  p {
+    font-size: 25px;
+  }
+
   /* /generale */
 
   /* header */
