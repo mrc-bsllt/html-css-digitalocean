@@ -384,7 +384,6 @@ nav li a:hover {
   background-color: #ffffff;
 }
 #footer_bottom {
-  height: 700px;
   padding: 50px 0;
   background-color: #010E28;
 }
@@ -411,6 +410,17 @@ nav li a:hover {
 }
 .list_social li:first-child i {
   padding-left: 0;
+}
+.list_social li i:hover,
+.list_link_footer li a:hover {
+  color: #ffffff;
+}
+.list_link_footer li {
+  margin-bottom: 10px;
+}
+.list_link_footer li a {
+  color: #5b6987;
+  font-weight: 600;
 }
 /* /footer */
 
@@ -551,6 +561,13 @@ nav li a:hover {
     height: 415px;
 }
   /* /main */
+
+  /* footer */
+  #company,
+  #products {
+    height: 380px;
+  }
+  /* /footer */
 
 }
 /* /media query */
