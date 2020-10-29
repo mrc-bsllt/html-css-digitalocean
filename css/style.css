@@ -1,6 +1,6 @@
 /* utilities */
 .debug [class*="col-"] {
-  height: 50px;
+  height: 400px;
   background-color: red;
   border: 1px solid black;
 }
@@ -375,13 +375,42 @@ nav li a:hover {
   background-image: linear-gradient(to bottom right, #010E28, #0060FF);
   height: 190px;
 }
-#btn_account {
+#btn_account_footer {
   margin-top: 20px;
   padding: 10px 15px;
   color: #0069ff;
   font-size: 17px;
   font-weight: 600;
   background-color: #ffffff;
+}
+#footer_bottom {
+  height: 700px;
+  padding: 50px 0;
+  background-color: #010E28;
+}
+#footer_bottom img {
+  margin-bottom: 15px;
+}
+#copy_right {
+  margin-bottom: 0;
+}
+.list_social {
+  margin-top: 20px;
+}
+.list_social::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.list_social li {
+  float: left;
+}
+.list_social li i {
+  padding:  0 10px;
+  font-size: 25px;
+}
+.list_social li:first-child i {
+  padding-left: 0;
 }
 /* /footer */
 
