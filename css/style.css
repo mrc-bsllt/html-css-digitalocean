@@ -48,6 +48,15 @@
 .cl_lightblue {
   color: #00d7d2
 }
+.pos_rel {
+  position: relative;
+}
+.pos_abs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /* /utilities */
 
 /* generale */
@@ -100,6 +109,15 @@ a:hover {
 }
 hr {
   margin: 5px 0;
+}
+i {
+  display: inline-block;
+  padding: 15px;
+  font-size: 50px;
+  cursor: pointer;
+}
+i.active {
+  color: #031b4e;
 }
 /* /generale */
 
@@ -254,15 +272,6 @@ nav li a:hover {
     width: 75%;
     vertical-align: middle;
   }
-  #create_droplets i {
-    display: inline-block;
-    padding: 15px;
-    font-size: 50px;
-    cursor: pointer;
-  }
-  #create_droplets i.active {
-    color: #031b4e;
-  }
   #create_droplets p.font_small {
     color: #031b4e;
     margin-top: 25px;
@@ -310,13 +319,59 @@ nav li a:hover {
 }
 /* /service */
 
+/* development */
+#development {
+  padding: 50px 0;
+  background-color: #F3F5F9;
+}
+#development h2 {
+  margin-bottom: 100px;
+}
+.dev_container {
+  width: 40%;
+  height: 250px;
+  margin: auto;
+}
+.dev_container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.angle_left,
+.angle_right {
+  float: left;
+  width: 10%;
+  height: 100%;
+}
+.dev_text {
+  float: left;
+  width: 80%;
+  height: 100%;
+  background-color: #ffffff;
+}
+.dev_text_content {
+  width: 100%;
+}
+.dev_text_content img {
+  margin-bottom: 15px;
+}
+.dev_text_content p.font_small {
+  color: #031b4e;
+}
+.dev_text_content span {
+  font-weight: 700;
+}
+.dev_text_content a {
+  color: #1633ff;
+  font-weight: 600;
+}
+#development .list_circle {
+  margin-top: 30px;
+}
 /* /main */
 
 
-
-
-
-
+/* <i class="fas fa-angle-right active hidden-xs"></i> */
 
 
 
@@ -390,6 +445,16 @@ nav li a:hover {
   #service {
     font-size: 12px;
   }
+  #development h2 {
+    margin-bottom: 70px;
+  }
+  .dev_container {
+    width: 90%;
+    height: 335px;
+  }
+  .dev_container img {
+    max-width: 97%;
+  }
   /* /main */
 
 }
@@ -413,7 +478,7 @@ nav li a:hover {
     font-size: 20px;
   }
   p {
-    font-size: 25px;
+    font-size: 29px;
   }
   .font_small {
     font-size: 19px;
@@ -443,6 +508,10 @@ nav li a:hover {
   #service {
     font-size: 20px;
   }
+  .dev_container {
+    width: 70%;
+    height: 415px;
+}
   /* /main */
 
 }
