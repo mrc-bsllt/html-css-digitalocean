@@ -1,6 +1,6 @@
 /* utilities */
 .debug [class*="col-"] {
-  height: 400px;
+  height: 50px;
   background-color: red;
   border: 1px solid black;
 }
@@ -35,6 +35,15 @@
 .wrapper_80 {
   width: 80%;
   margin: auto;
+}
+.font_weight_600 {
+  font-weight: 600;
+}
+.cl_white {
+  color: #ffffff;
+}
+.cl_lightblue {
+  color: #00d7d2
 }
 /* /utilities */
 
@@ -78,9 +87,13 @@ p.p_small {
 }
 a {
   color: #031b4f;
+  display: inline-block;
 }
 a:hover {
   text-decoration: none;
+}
+hr {
+  margin: 5px 0;
 }
 /* /generale */
 
@@ -288,6 +301,17 @@ nav li a:hover {
 }
 /* /features */
 
+/* service */
+#service {
+  padding: 70px 0;
+  height: 500px;
+  background-image: linear-gradient(to bottom right, #0062FF, #0155FF);
+}
+#service h2 {
+  color: #ffffff;
+}
+/* /service */
+
 /* /main */
 
 
@@ -308,6 +332,9 @@ nav li a:hover {
   }
   p.font_big {
     font-size: 16px;
+  }
+  h2 {
+    font-size: 1.8em;
   }
   h3 {
     font-size: 1.6em;
@@ -349,6 +376,9 @@ nav li a:hover {
   .list_circle li {
     width: 10px;
     height: 10px;
+  }
+  #service {
+    font-size: 8px;
   }
   /* /main */
 
