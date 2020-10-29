@@ -304,11 +304,11 @@ nav li a:hover {
 /* service */
 #service {
   padding: 70px 0;
-  height: 500px;
   background-image: linear-gradient(to bottom right, #0062FF, #0155FF);
 }
 #service h2 {
   color: #ffffff;
+  margin-bottom: 20px;
 }
 /* /service */
 
@@ -378,7 +378,7 @@ nav li a:hover {
     height: 10px;
   }
   #service {
-    font-size: 8px;
+    font-size: 12px;
   }
   /* /main */
 
@@ -414,6 +414,9 @@ nav li a:hover {
   }
   #create_droplets p.p_small {
     font-size: 1.5em;
+  }
+  #service {
+    font-size: 20px;
   }
   /* /main */
 
