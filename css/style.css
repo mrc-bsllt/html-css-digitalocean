@@ -311,7 +311,7 @@ nav li a:hover {
 /* service */
 #service {
   padding: 70px 0;
-  background-image: linear-gradient(to bottom right, #0062FF, #0155FF);
+  background-image: linear-gradient(to bottom right, #010E28, #0060FF);
 }
 #service h2 {
   color: #ffffff;
@@ -370,11 +370,20 @@ nav li a:hover {
 }
 /* /main */
 
-
-/* <i class="fas fa-angle-right active hidden-xs"></i> */
-
-
-
+/* footer */
+#account {
+  background-image: linear-gradient(to bottom right, #010E28, #0060FF);
+  height: 190px;
+}
+#btn_account {
+  margin-top: 20px;
+  padding: 10px 15px;
+  color: #0069ff;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: #ffffff;
+}
+/* /footer */
 
 /* media query */
 @media screen and (max-width: 768px) {
