@@ -1,5 +1,5 @@
 /* utilities */
-.debug [class*="col-l"] {
+.debug [class*="col-"] {
   height: 400px;
   background-color: red;
   border: 1px solid black;
@@ -51,6 +51,7 @@ h1 {
 h2 {
   font-size: 2.4em;
   font-weight: 700;
+  margin-top: 0;
 }
 h3 {
   font-size: 2.1em;
@@ -195,9 +196,6 @@ nav li a:hover {
  #deploy {
    padding: 50px 0;
  }
- #deploy h2 {
-   margin-top: 0;
- }
 #deploy p.font_big {
   color: #5b6987;
   margin-bottom: 50px;
@@ -267,6 +265,28 @@ nav li a:hover {
     background-color: #006aff;
   }
 /* /designed */
+
+/* features */
+#features {
+  padding: 70px 0;
+}
+.features_items {
+  margin-top: 30px;
+}
+#features img {
+  height: 50px;
+}
+#features h4 {
+  margin: 15px 0;
+}
+#features p {
+  font-size: 15px;
+}
+#features a {
+  color: #1633ff;
+  font-weight: 600;
+}
+/* /features */
 
 /* /main */
 
