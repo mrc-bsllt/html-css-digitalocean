@@ -422,6 +422,57 @@ nav li a:hover {
   color: #5b6987;
   font-weight: 600;
 }
+
+/* banner */
+#banner {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 400px;
+  height: 70px;
+}
+#banner .banner_box {
+  width: 300px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.banner_box .banner_text {
+  width: 100%;
+  padding-left: 15px;
+  color: #000000;
+}
+.banner_box i {
+  position: absolute;
+  left: 99%;
+  bottom: 20px;
+  padding: 0;
+  color: #ffffff;
+  font-size: 25px;
+}
+#avatar{
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  height: 100%;
+}
+#avatar img {
+  height: 100%;
+}
+#avatar .notify {
+  position: absolute;
+  bottom: 80%;
+  left: 60%;
+  width: 35px;
+  height: 35px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 700;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  background-color: red;
+}
+/* /banner */
 /* /footer */
 
 /* media query */
